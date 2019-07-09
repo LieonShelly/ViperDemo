@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1899B122CE5E9D0039B2AC /* AddressListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1899AF22CE5E9D0039B2AC /* AddressListTableViewCell.swift */; };
+		CD1899B222CE5E9D0039B2AC /* AddressListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1899B022CE5E9D0039B2AC /* AddressListTableViewCell.xib */; };
+		CD67DC2D22D05E2C00C9C648 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD67DC2C22D05E2C00C9C648 /* Protocols.swift */; };
+		CD67DC3122D05FF600C9C648 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD67DC2F22D05FF600C9C648 /* MovieViewController.swift */; };
+		CD67DC3222D05FF600C9C648 /* MovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD67DC3022D05FF600C9C648 /* MovieViewController.xib */; };
+		CD6B8F4F22CD00F700ED130D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B8F4E22CD00F700ED130D /* AppDelegate.swift */; };
+		CD6B8F5422CD00F700ED130D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6B8F5222CD00F700ED130D /* Main.storyboard */; };
+		CD6B8F5622CD00F900ED130D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6B8F5522CD00F900ED130D /* Assets.xcassets */; };
+		CD6B8F5922CD00F900ED130D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6B8F5722CD00F900ED130D /* LaunchScreen.storyboard */; };
+		CD6B8F6322CD013500ED130D /* AddressListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B8F6122CD013500ED130D /* AddressListViewController.swift */; };
+		CD6B8F6422CD013500ED130D /* AddressListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6B8F6222CD013500ED130D /* AddressListViewController.xib */; };
+		CD6B8F6622CD015200ED130D /* AddressListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B8F6522CD015200ED130D /* AddressListPresenter.swift */; };
+		CD6B8F6822CD016700ED130D /* AddressInterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B8F6722CD016700ED130D /* AddressInterator.swift */; };
+		CD6B8F6A22CD017500ED130D /* AddressListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B8F6922CD017500ED130D /* AddressListRouter.swift */; };
+		CD6B8F6C22CD018300ED130D /* AddressListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B8F6B22CD018300ED130D /* AddressListEntity.swift */; };
+		CD6B8F7422CD025700ED130D /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B8F7322CD025700ED130D /* Protocol.swift */; };
+		CDC26DA622D39A1200324539 /* MoivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC26DA522D39A1200324539 /* MoivePresenter.swift */; };
+		CDC26DA922D39B6B00324539 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC26DA822D39B6B00324539 /* Entity.swift */; };
+		CDC26DAE22D39BC700324539 /* MoiveInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC26DAD22D39BC700324539 /* MoiveInteractor.swift */; };
+		CDC26DB122D3A08900324539 /* MoiveRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC26DB022D3A08900324539 /* MoiveRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD1899AF22CE5E9D0039B2AC /* AddressListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListTableViewCell.swift; sourceTree = "<group>"; };
+		CD1899B022CE5E9D0039B2AC /* AddressListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressListTableViewCell.xib; sourceTree = "<group>"; };
+		CD67DC2C22D05E2C00C9C648 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		CD67DC2F22D05FF600C9C648 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		CD67DC3022D05FF600C9C648 /* MovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieViewController.xib; sourceTree = "<group>"; };
+		CD6B8F4B22CD00F700ED130D /* ViperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6B8F4E22CD00F700ED130D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6B8F5322CD00F700ED130D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6B8F5522CD00F900ED130D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6B8F5822CD00F900ED130D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6B8F5A22CD00F900ED130D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6B8F6122CD013500ED130D /* AddressListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListViewController.swift; sourceTree = "<group>"; };
+		CD6B8F6222CD013500ED130D /* AddressListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressListViewController.xib; sourceTree = "<group>"; };
+		CD6B8F6522CD015200ED130D /* AddressListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListPresenter.swift; sourceTree = "<group>"; };
+		CD6B8F6722CD016700ED130D /* AddressInterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInterator.swift; sourceTree = "<group>"; };
+		CD6B8F6922CD017500ED130D /* AddressListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListRouter.swift; sourceTree = "<group>"; };
+		CD6B8F6B22CD018300ED130D /* AddressListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListEntity.swift; sourceTree = "<group>"; };
+		CD6B8F7322CD025700ED130D /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		CDC26DA522D39A1200324539 /* MoivePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoivePresenter.swift; sourceTree = "<group>"; };
+		CDC26DA822D39B6B00324539 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		CDC26DAD22D39BC700324539 /* MoiveInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveInteractor.swift; sourceTree = "<group>"; };
+		CDC26DB022D3A08900324539 /* MoiveRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6B8F4822CD00F700ED130D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD67DC2822D0558F00C9C648 /* AddressList */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F7222CD024700ED130D /* Protocol */,
+				CD6B8F7122CD01EF00ED130D /* Router */,
+				CD6B8F7022CD01E400ED130D /* Entity */,
+				CD6B8F6F22CD01CB00ED130D /* Iteractor */,
+				CD6B8F6E22CD01C200ED130D /* Presenter */,
+				CD6B8F6D22CD019100ED130D /* View */,
+			);
+			path = AddressList;
+			sourceTree = "<group>";
+		};
+		CD67DC2922D0559F00C9C648 /* GithubRep */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GithubRep;
+			sourceTree = "<group>";
+		};
+		CD67DC2A22D05DCC00C9C648 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				CDC26DAF22D3A06E00324539 /* Router */,
+				CDC26DAA22D39B9400324539 /* Interactor */,
+				CDC26DA722D39B5E00324539 /* Entiy */,
+				CDC26DA422D399EF00324539 /* Presenter */,
+				CD67DC2E22D05FDF00C9C648 /* VIew */,
+				CD67DC2B22D05E0900C9C648 /* Protocol */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		CD67DC2B22D05E0900C9C648 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CD67DC2C22D05E2C00C9C648 /* Protocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CD67DC2E22D05FDF00C9C648 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				CD67DC2F22D05FF600C9C648 /* MovieViewController.swift */,
+				CD67DC3022D05FF600C9C648 /* MovieViewController.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		CD6B8F4222CD00F700ED130D = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F4D22CD00F700ED130D /* ViperDemo */,
+				CD6B8F4C22CD00F700ED130D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6B8F4C22CD00F700ED130D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F4B22CD00F700ED130D /* ViperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6B8F4D22CD00F700ED130D /* ViperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F4E22CD00F700ED130D /* AppDelegate.swift */,
+				CD6B8F6022CD011600ED130D /* Modules */,
+				CD6B8F5222CD00F700ED130D /* Main.storyboard */,
+				CD6B8F5522CD00F900ED130D /* Assets.xcassets */,
+				CD6B8F5722CD00F900ED130D /* LaunchScreen.storyboard */,
+				CD6B8F5A22CD00F900ED130D /* Info.plist */,
+			);
+			path = ViperDemo;
+			sourceTree = "<group>";
+		};
+		CD6B8F6022CD011600ED130D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CD67DC2A22D05DCC00C9C648 /* Movies */,
+				CD67DC2922D0559F00C9C648 /* GithubRep */,
+				CD67DC2822D0558F00C9C648 /* AddressList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CD6B8F6D22CD019100ED130D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F6222CD013500ED130D /* AddressListViewController.xib */,
+				CD6B8F6122CD013500ED130D /* AddressListViewController.swift */,
+				CD1899AF22CE5E9D0039B2AC /* AddressListTableViewCell.swift */,
+				CD1899B022CE5E9D0039B2AC /* AddressListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD6B8F6E22CD01C200ED130D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F6522CD015200ED130D /* AddressListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CD6B8F6F22CD01CB00ED130D /* Iteractor */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F6722CD016700ED130D /* AddressInterator.swift */,
+			);
+			path = Iteractor;
+			sourceTree = "<group>";
+		};
+		CD6B8F7022CD01E400ED130D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F6B22CD018300ED130D /* AddressListEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CD6B8F7122CD01EF00ED130D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F6922CD017500ED130D /* AddressListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CD6B8F7222CD024700ED130D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B8F7322CD025700ED130D /* Protocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CDC26DA422D399EF00324539 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CDC26DA522D39A1200324539 /* MoivePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CDC26DA722D39B5E00324539 /* Entiy */ = {
+			isa = PBXGroup;
+			children = (
+				CDC26DA822D39B6B00324539 /* Entity.swift */,
+			);
+			path = Entiy;
+			sourceTree = "<group>";
+		};
+		CDC26DAA22D39B9400324539 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CDC26DAD22D39BC700324539 /* MoiveInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CDC26DAF22D3A06E00324539 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CDC26DB022D3A08900324539 /* MoiveRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6B8F4A22CD00F700ED130D /* ViperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6B8F5D22CD00F900ED130D /* Build configuration list for PBXNativeTarget "ViperDemo" */;
+			buildPhases = (
+				CD6B8F4722CD00F700ED130D /* Sources */,
+				CD6B8F4822CD00F700ED130D /* Frameworks */,
+				CD6B8F4922CD00F700ED130D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViperDemo;
+			productName = ViperDemo;
+			productReference = CD6B8F4B22CD00F700ED130D /* ViperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6B8F4322CD00F700ED130D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lieon;
+				TargetAttributes = {
+					CD6B8F4A22CD00F700ED130D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CD6B8F4622CD00F700ED130D /* Build configuration list for PBXProject "ViperDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6B8F4222CD00F700ED130D;
+			productRefGroup = CD6B8F4C22CD00F700ED130D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6B8F4A22CD00F700ED130D /* ViperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6B8F4922CD00F700ED130D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1899B222CE5E9D0039B2AC /* AddressListTableViewCell.xib in Resources */,
+				CD6B8F5922CD00F900ED130D /* LaunchScreen.storyboard in Resources */,
+				CD6B8F5622CD00F900ED130D /* Assets.xcassets in Resources */,
+				CD67DC3222D05FF600C9C648 /* MovieViewController.xib in Resources */,
+				CD6B8F5422CD00F700ED130D /* Main.storyboard in Resources */,
+				CD6B8F6422CD013500ED130D /* AddressListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6B8F4722CD00F700ED130D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6B8F6322CD013500ED130D /* AddressListViewController.swift in Sources */,
+				CD67DC3122D05FF600C9C648 /* MovieViewController.swift in Sources */,
+				CDC26DAE22D39BC700324539 /* MoiveInteractor.swift in Sources */,
+				CD6B8F6822CD016700ED130D /* AddressInterator.swift in Sources */,
+				CD6B8F4F22CD00F700ED130D /* AppDelegate.swift in Sources */,
+				CD67DC2D22D05E2C00C9C648 /* Protocols.swift in Sources */,
+				CD6B8F7422CD025700ED130D /* Protocol.swift in Sources */,
+				CD6B8F6622CD015200ED130D /* AddressListPresenter.swift in Sources */,
+				CD6B8F6C22CD018300ED130D /* AddressListEntity.swift in Sources */,
+				CDC26DA922D39B6B00324539 /* Entity.swift in Sources */,
+				CD1899B122CE5E9D0039B2AC /* AddressListTableViewCell.swift in Sources */,
+				CD6B8F6A22CD017500ED130D /* AddressListRouter.swift in Sources */,
+				CDC26DA622D39A1200324539 /* MoivePresenter.swift in Sources */,
+				CDC26DB122D3A08900324539 /* MoiveRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD6B8F5222CD00F700ED130D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6B8F5322CD00F700ED130D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6B8F5722CD00F900ED130D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6B8F5822CD00F900ED130D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6B8F5B22CD00F900ED130D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6B8F5C22CD00F900ED130D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6B8F5E22CD00F900ED130D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD6B8F5F22CD00F900ED130D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ViperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6B8F4622CD00F700ED130D /* Build configuration list for PBXProject "ViperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6B8F5B22CD00F900ED130D /* Debug */,
+				CD6B8F5C22CD00F900ED130D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6B8F5D22CD00F900ED130D /* Build configuration list for PBXNativeTarget "ViperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6B8F5E22CD00F900ED130D /* Debug */,
+				CD6B8F5F22CD00F900ED130D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6B8F4322CD00F700ED130D /* Project object */;
+}
