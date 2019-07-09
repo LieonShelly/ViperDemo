@@ -27,6 +27,13 @@
 		CDC26DA922D39B6B00324539 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC26DA822D39B6B00324539 /* Entity.swift */; };
 		CDC26DAE22D39BC700324539 /* MoiveInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC26DAD22D39BC700324539 /* MoiveInteractor.swift */; };
 		CDC26DB122D3A08900324539 /* MoiveRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC26DB022D3A08900324539 /* MoiveRouter.swift */; };
+		CDE984BD22D436B70009DEE2 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE984BB22D436B70009DEE2 /* NoticeViewController.swift */; };
+		CDE984BE22D436B70009DEE2 /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDE984BC22D436B70009DEE2 /* NoticeViewController.xib */; };
+		CDE984C122D436F10009DEE2 /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE984C022D436F10009DEE2 /* NoticePresenter.swift */; };
+		CDE984C422D4371C0009DEE2 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE984C322D4371C0009DEE2 /* NoticeInteractor.swift */; };
+		CDE984C722D437350009DEE2 /* NoticeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE984C622D437350009DEE2 /* NoticeRouter.swift */; };
+		CDE984CA22D43A3A0009DEE2 /* NoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE984C922D43A3A0009DEE2 /* NoticeModel.swift */; };
+		CDE984CD22D43E560009DEE2 /* NoticeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE984CC22D43E560009DEE2 /* NoticeProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +59,13 @@
 		CDC26DA822D39B6B00324539 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		CDC26DAD22D39BC700324539 /* MoiveInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveInteractor.swift; sourceTree = "<group>"; };
 		CDC26DB022D3A08900324539 /* MoiveRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoiveRouter.swift; sourceTree = "<group>"; };
+		CDE984BB22D436B70009DEE2 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		CDE984BC22D436B70009DEE2 /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
+		CDE984C022D436F10009DEE2 /* NoticePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticePresenter.swift; sourceTree = "<group>"; };
+		CDE984C322D4371C0009DEE2 /* NoticeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
+		CDE984C622D437350009DEE2 /* NoticeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeRouter.swift; sourceTree = "<group>"; };
+		CDE984C922D43A3A0009DEE2 /* NoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModel.swift; sourceTree = "<group>"; };
+		CDE984CC22D43E560009DEE2 /* NoticeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +161,7 @@
 		CD6B8F6022CD011600ED130D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CDE984B922D4368F0009DEE2 /* Notice */,
 				CD67DC2A22D05DCC00C9C648 /* Movies */,
 				CD67DC2922D0559F00C9C648 /* GithubRep */,
 				CD67DC2822D0558F00C9C648 /* AddressList */,
@@ -237,6 +252,68 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		CDE984B922D4368F0009DEE2 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				CDE984CB22D43BDB0009DEE2 /* Protocol */,
+				CDE984C822D4373A0009DEE2 /* Entity */,
+				CDE984C522D437200009DEE2 /* Router */,
+				CDE984C222D437090009DEE2 /* Interactor */,
+				CDE984BF22D436C20009DEE2 /* Presenter */,
+				CDE984BA22D4369E0009DEE2 /* View */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		CDE984BA22D4369E0009DEE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDE984BB22D436B70009DEE2 /* NoticeViewController.swift */,
+				CDE984BC22D436B70009DEE2 /* NoticeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CDE984BF22D436C20009DEE2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CDE984C022D436F10009DEE2 /* NoticePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CDE984C222D437090009DEE2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				CDE984C322D4371C0009DEE2 /* NoticeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		CDE984C522D437200009DEE2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CDE984C622D437350009DEE2 /* NoticeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CDE984C822D4373A0009DEE2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CDE984C922D43A3A0009DEE2 /* NoticeModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CDE984CB22D43BDB0009DEE2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CDE984CC22D43E560009DEE2 /* NoticeProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1899B222CE5E9D0039B2AC /* AddressListTableViewCell.xib in Resources */,
+				CDE984BE22D436B70009DEE2 /* NoticeViewController.xib in Resources */,
 				CD6B8F5922CD00F900ED130D /* LaunchScreen.storyboard in Resources */,
 				CD6B8F5622CD00F900ED130D /* Assets.xcassets in Resources */,
 				CD67DC3222D05FF600C9C648 /* MovieViewController.xib in Resources */,
@@ -314,14 +392,20 @@
 				CD6B8F6322CD013500ED130D /* AddressListViewController.swift in Sources */,
 				CD67DC3122D05FF600C9C648 /* MovieViewController.swift in Sources */,
 				CDC26DAE22D39BC700324539 /* MoiveInteractor.swift in Sources */,
+				CDE984CD22D43E560009DEE2 /* NoticeProtocol.swift in Sources */,
 				CD6B8F6822CD016700ED130D /* AddressInterator.swift in Sources */,
+				CDE984BD22D436B70009DEE2 /* NoticeViewController.swift in Sources */,
+				CDE984C422D4371C0009DEE2 /* NoticeInteractor.swift in Sources */,
 				CD6B8F4F22CD00F700ED130D /* AppDelegate.swift in Sources */,
 				CD67DC2D22D05E2C00C9C648 /* Protocols.swift in Sources */,
 				CD6B8F7422CD025700ED130D /* Protocol.swift in Sources */,
 				CD6B8F6622CD015200ED130D /* AddressListPresenter.swift in Sources */,
 				CD6B8F6C22CD018300ED130D /* AddressListEntity.swift in Sources */,
+				CDE984C122D436F10009DEE2 /* NoticePresenter.swift in Sources */,
+				CDE984CA22D43A3A0009DEE2 /* NoticeModel.swift in Sources */,
 				CDC26DA922D39B6B00324539 /* Entity.swift in Sources */,
 				CD1899B122CE5E9D0039B2AC /* AddressListTableViewCell.swift in Sources */,
+				CDE984C722D437350009DEE2 /* NoticeRouter.swift in Sources */,
 				CD6B8F6A22CD017500ED130D /* AddressListRouter.swift in Sources */,
 				CDC26DA622D39A1200324539 /* MoivePresenter.swift in Sources */,
 				CDC26DB122D3A08900324539 /* MoiveRouter.swift in Sources */,
